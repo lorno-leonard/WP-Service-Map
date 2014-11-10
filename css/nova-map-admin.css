@@ -1,0 +1,185 @@
+body {
+	background: none;
+}
+
+a {
+	cursor: pointer;
+}
+
+.nova_map_admin_title {
+	margin-bottom: 20px;
+}
+
+.nova_map_admin_title .image-content,
+.nova_map_admin_title .text-content {
+	display: inline-block;
+}
+
+.nova_map_admin_title .image-content {
+	float: left;
+	height: 75px;
+	padding-right: 10px;
+}
+
+.nova_map_admin_title .image-content img {
+	height: 30px;
+	margin-top: 15px;
+}
+
+.nm_locations_alert {
+	font-size: 85%;
+}
+
+table.nm_locations {
+	margin: 10px 0;
+	font-size: 85%;
+	table-layout: fixed;
+	width: 99%;
+	border: 1px solid #ddd;
+}
+
+table.nm_locations th {
+	border-bottom: 1px solid #ddd !important;
+	cursor: pointer;
+}
+
+table.nm_locations th,
+table.nm_locations td {
+	padding: 5px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 10px;
+	height: 25px;
+	vertical-align: middle !important;
+}
+
+table.nm_locations thead th,
+table.nm_locations tfoot th {
+	background-color: #ECECEC;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#F8F8F8), to(#ECECEC));
+	background-image: -webkit-linear-gradient(top, #F8F8F8, #ECECEC);
+	background-image: -moz-linear-gradient(top, #F8F8F8, #ECECEC);    
+	background-image: linear-gradient(top, #F8F8F8, #ECECEC);
+}
+
+table.nm_locations tr th:first-child,
+table.nm_locations tr td:first-child {
+	text-align: center;
+}
+
+.nm_pager {
+	margin: 0;
+}
+
+.nm_pager button {
+	width: 20px;
+}
+
+.nm_pager input {
+	width: 75px;
+	text-align: center;
+}
+
+.nm_crud_location,
+.nm_settings {
+	font-size: 85%;
+	position: relative;
+}
+
+.nm_crud_location form,
+.nm_settings form {
+	padding: 10px 0;
+	clear: both;
+}
+
+.nm_crud_location .control-label,
+.nm_settings .control-label {
+	text-align: left;
+}
+
+.nm_crud_location textarea {
+	min-height: 150px;
+	resize: vertical;
+}
+
+.nm_crud_location input,
+.nm_crud_location textarea,
+.nm_settings input {
+	font-size: 100%;
+	border: 1px solid #ccc
+}
+
+.nm_settings img {
+	max-height: 40px;
+}
+
+.nm_crud_location .map-container {
+	margin-top: 20px;
+	position: relative;
+}
+
+.nm_crud_location .map-container p {
+	margin: 0;
+}
+
+#admin_nova_map {
+	width: auto;
+	height: 400px;
+	margin-top: 10px;
+}
+
+.nm_admin_loading {
+	display: none;
+	position: fixed;
+	top: 50%;
+	text-align: center;
+	width: 80%;
+	z-index: 1;
+}
+
+.nova_search_load {
+	display: none;
+	position: absolute;
+	top: 50%;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	color: #ddd;
+	z-index: 1;
+}
+
+div.dataTables_filter label,
+div.dataTables_paginate {
+	float: right;
+	margin-right: 10px;
+}
+
+.paging_full_numbers a {
+	padding: 5px;
+}
+
+.paging_full_numbers a.paginate_button_disabled {
+	color: #999;
+	cursor: default;
+}
+
+.paging_full_numbers a.paginate_button_disabled:hover {
+	text-decoration: none;
+}
+
+.paging_full_numbers a.paginate_active {
+	color: #000;
+	text-decoration: underline;
+}
+
+#nm_sort {
+	height: 34px;
+	width: 100px;
+}
+
+.nm_locations_sort_search .column {
+	padding-right: 0;
+	padding-left: 0;
+}
